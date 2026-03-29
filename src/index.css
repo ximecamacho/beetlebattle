@@ -13,9 +13,7 @@ body, html{
 }
 
 #app{
-    display: flex;
-    justify-content: center; /* Centers the SVGs horizontally */
-    align-items: center; /* Aligns the SVGs vertically */
+
     gap: 150px; /* Adds spacing between the SVGs */
     width: 1280px;
     height: 720px;
@@ -101,49 +99,83 @@ body, html{
 }
 /*-------------end of difficulty box---------*/
 /*------------start of difficulty buttons---------*/
+.mushroom-button{
+    position:absolute;
+    border:none;
+    cursor: pointer;
+    border-radius: 50px; 
+    top: 50px;
+    left:10px;
+}
+
 .easy{
     padding: 25px;
     background-color:#d5978a;
-    top:50px;
-    left:10px;
+    top:120px;
+    left:0px;
     font-family: 'chealsea market';
     font-weight: bold;
     font-size: 20px;
+}
+.easy:hover {
+    transform: scale(1.1) rotate(20deg); /* Juice it up! */
 }
 
 .medium{
     padding: 25px;
     background-color:#d5978a;
-    top:50px;
-    left:10px;
+    top:180px;
+    left:110px;
     font-family: 'chealsea market';
     font-weight: bold;
     font-size: 20px;
+}
+.medium:hover {
+    transform: scale(1.1) rotate(-20deg); /* Juice it up! */
 }
 
 .hard{
     padding: 25px;
     background-color:#d5978a;
-    top:50px;
+    top:250px;
     left:10px;
     font-family: 'chealsea market';
     font-weight: bold;
     font-size: 20px;
 }
+.hard:hover {
+    transform: scale(1.1) rotate(20deg); /* Juice it up! */
+}
 
 /*-------------end of difficulty buttons---------*/
 /*------------start of play button---------*/
-.play-button-container{
+.play-section {
     position: absolute;
-    top: 400px; /* Adjust as needed */
-    left: 100px; /* Adjust as needed */
-    padding: 20px 40px;
-    background-color: #d5978a;
-    color: #351710;
-    font-family: 'chealsea market';
-    font-size: 30px;
+    bottom: 100px;   /* Positioned at the bottom */
+    right: 130px;   /* Positioned on the right */
+}
+
+.ladybug-btn {
+    background: none;    /* Removes the gray button box */
+    border: none;        /* Removes the box border */
+    cursor: pointer;       /* Changes cursor to pointer on hover */
+    top: 0;
+    transition: transform 0.3s;
+}
+
+.ladybug-btn:hover {
+    transform: scale(1.1) rotate(-20deg); /* Juice it up! */
+}
+
+.play-text {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%); /* Centers the text perfectly */
+    color: white;
+    font-family: 'chelsea market';
+    font-size: 24px;
     font-weight: bold;
-    border: none;
-    cursor: pointer;
+    pointer-events: none; /* Clicking the text counts as clicking the bug */
 }
 /*-------------end of play button---------*/

@@ -17418,32 +17418,242 @@ var _indexCss = require("./index.css"); //links to the css file for styling
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "app",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "logo-container",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "title-main",
-                    children: "BEETLE-BATTLE"
-                }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "title-main",
+                        children: "BEETLE-BATTLE"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 16,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "title-reflection",
+                        children: "BEETLE-BATTLE"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 17,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.jsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "leaderboard-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "leaderboard-title",
+                        children: "LeaderBoard"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "scroll-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "1. BeetleKing - 500"
+                            }, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 25,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "2. LadyBugQueen - 450"
+                            }, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 26,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "3. ImposterMaster - 400"
+                            }, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 27,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "4. BugBoss - 350"
+                            }, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 28,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "5. InsectChampion - 300"
+                            }, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 29,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.jsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "difficulty-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "difficulty-title",
+                        children: "Difficulty"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 34,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "mushroom-button easy",
+                        children: "Easy"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "mushroom-button medium",
+                        children: "Medium"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "mushroom-button hard",
+                        children: "Hard"
+                    }, void 0, false, {
+                        fileName: "src/App.jsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.jsx",
+                lineNumber: 33,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "play-section",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    className: "ladybug-btn",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                            width: "150",
+                            height: "120",
+                            viewBox: "0 0 150 120",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ellipse", {
+                                    cx: "75",
+                                    cy: "70",
+                                    rx: "60",
+                                    ry: "45",
+                                    fill: "#C94021"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("circle", {
+                                    cx: "120",
+                                    cy: "70",
+                                    r: "25",
+                                    fill: "black"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 48,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M 130 50 Q 140 30 150 40",
+                                    stroke: "black",
+                                    fill: "none",
+                                    strokeWidth: "2"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 50,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M 135 55 Q 145 35 155 45",
+                                    stroke: "black",
+                                    fill: "none",
+                                    strokeWidth: "2"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("circle", {
+                                    cx: "80",
+                                    cy: "45",
+                                    r: "5",
+                                    fill: "black"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 54,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("circle", {
+                                    cx: "60",
+                                    cy: "85",
+                                    r: "5",
+                                    fill: "black"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 55,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("circle", {
+                                    cx: "90",
+                                    cy: "80",
+                                    r: "5",
+                                    fill: "black"
+                                }, void 0, false, {
+                                    fileName: "src/App.jsx",
+                                    lineNumber: 56,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 45,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "play-text",
+                            children: "PLAY"
+                        }, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 60,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "src/App.jsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "title-reflection",
-                    children: "BEETLE-BATTLE"
-                }, void 0, false, {
-                    fileName: "src/App.jsx",
-                    lineNumber: 16,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/App.jsx",
-            lineNumber: 14,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 43,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/App.jsx",
         lineNumber: 13,
         columnNumber: 5
