@@ -11,6 +11,10 @@ body, html{
 }
 
 #app{
+    display: flex;
+    justify-content: center; /* Centers the SVGs horizontally */
+    align-items: center; /* Aligns the SVGs vertically */
+    gap: 150px; /* Adds spacing between the SVGs */
     width: 1280px;
     height: 720px;
     position: relative;
@@ -22,14 +26,122 @@ body, html{
     left: 20px;         /* 20 pixels from the left */
     text-align: left;   /* Makes sure the text itself isn't centered */
 }
+/*-----------------beginning of title---------*/
 .title-main{
+    color: #E2D37A;
+    font-family: 'chelsea market';
     font-size: 80px;
     margin: 0;
 }
 .title-reflection{
     font-size:80px;
+    color: #351710;
+    font-family: 'chelsea market';
     margin: -40px 0 0 0; /*pulls it up to touch top text*/
     transform: scaleY(-1); /*flips it vertically*/
-    opacity: 0.3; /*makes it lighter for reflection effect*/
+    opacity: 1; /*makes it lighter for reflection effect*/
+}
+/*---------------end of title-------------*/
+
+.game-screen {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background-color: #A3241F;
+    overflow: hidden; 
 
 }
+
+/*----------leaderboard under title------*/
+.leaderboard-container {
+    position:absolute; 
+    top:50px; /*moves box up or down*/
+    left:900px; /*moves right*/
+    width: 350px;
+}
+
+.leaderboard-title{
+    background-color: #351710;
+    color: #E2D37A; 
+    font-family: 'chealsea market', sans-serif;
+    margin-bottom:0px;
+    padding: 10px;
+}
+
+.scroll-box{
+    background-color: #E2D37A; 
+    border: 5px solid #351710;
+    height: 250px;
+    overflow-y:scroll;
+    padding:10px;
+    color:#351710;
+
+}
+.scroll-box p{ /*makes text look nicer inside*/
+    margin: 10px 0;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+}
+
+/*------------start of difficulty box---------*/
+.difficulty-container {
+    position: absolute;
+    top: 200px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+}
+.difficulty-title{
+    background-color: #351710;
+    color: #E2D37A; 
+    font-family: 'chealsea market';
+    font-size: 40px;
+    margin-bottom:30px;
+    padding: 20px;
+}
+/*-------------end of difficulty box---------*/
+/*------------start of difficulty buttons---------*/
+.easy{
+    padding: 25px;
+    background-color:#d5978a;
+    top:50px;
+    left:10px;
+    font-family: 'chealsea market';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.medium{
+    padding: 25px;
+    background-color:#d5978a;
+    top:50px;
+    left:10px;
+    font-family: 'chealsea market';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hard{
+    padding: 25px;
+    background-color:#d5978a;
+    top:50px;
+    left:10px;
+    font-family: 'chealsea market';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*-------------end of difficulty buttons---------*/
+/*------------start of play button---------*/
+.play-button-container{
+    position: absolute;
+    top: 400px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+    padding: 20px 40px;
+    background-color: #d5978a;
+    color: #351710;
+    font-family: 'chealsea market';
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/*-------------end of play button---------*/
