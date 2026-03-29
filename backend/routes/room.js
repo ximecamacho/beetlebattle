@@ -3,6 +3,21 @@ const router = express.Router();
 const Player = require('../db/models/Player');
 const Match = require('../db/models/Match');
 
+router.post('/player', async (req, res) => {
+  try {
+    const { playerName } = req.body;
+    if (!playerName) return res.status(400).json({ error: 'playerName required' });
+    await Player.findOneAndUpdate(
+      { playerName },
+      { lastPlayed: new Date() },
+      { upsert: true, new: true }
+    );
+    res.json({ ok: true });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to register player' });
+  }
+});
+
 router.get('/leaderboard', async (req, res) => {
   try {
     const top10 = await Player.find()

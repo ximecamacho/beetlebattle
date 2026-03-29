@@ -48,13 +48,13 @@ body, html{
     width: 1280px;
     height: 720px;
     background-color: #A3241F;
-    overflow: hidden; 
+    overflow: hidden;
 
 }
 
 /*----------leaderboard under title------*/
 .leaderboard-container {
-    position:absolute; 
+    position:absolute;
     top:50px; /*moves box up or down*/
     left:900px; /*moves right*/
     width: 350px;
@@ -62,14 +62,14 @@ body, html{
 
 .leaderboard-title{
     background-color: #351710;
-    color: #E2D37A; 
+    color: #E2D37A;
     font-family: 'chealsea market', sans-serif;
     margin-bottom:0px;
     padding: 10px;
 }
 
 .scroll-box{
-    background-color: #E2D37A; 
+    background-color: #E2D37A;
     border: 5px solid #351710;
     height: 250px;
     overflow-y:scroll;
@@ -80,7 +80,7 @@ body, html{
 .scroll-box p{ /*makes text look nicer inside*/
     margin: 10px 0;
     font-weight: bold;
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 /*------------start of difficulty box---------*/
@@ -91,19 +91,22 @@ body, html{
 }
 .difficulty-title{
     background-color: #351710;
-    color: #E2D37A; 
+    color: #E2D37A;
     font-family: 'chealsea market';
     font-size: 40px;
     margin-bottom:30px;
     padding: 20px;
 }
 /*-------------end of difficulty box---------*/
+
+
 /*------------start of difficulty buttons---------*/
 .mushroom-button{
     position:absolute;
     border:none;
     cursor: pointer;
     border-radius: 50px; 
+    border-radius: 50px;
     top: 50px;
     left:10px;
 }
@@ -148,6 +151,53 @@ body, html{
 }
 
 /*-------------end of difficulty buttons---------*/
+
+/*------------selected button highlight---------*/
+.mushroom-button.selected {
+    outline: 3px solid #E2D37A;
+    background-color: #b87060;
+}
+/*-------------end of selected button---------*/
+
+/*------------start of language box---------*/
+.language-container {
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+/*-------------end of language box---------*/
+
+/*------------name input + status---------*/
+.name-container {
+    position: absolute;
+    bottom: 110px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.name-input {
+    padding: 15px 20px;
+    font-family: 'Chelsea Market';
+    font-size: 20px;
+    background-color: #d5978a;
+    border: none;
+    color: #351710;
+    width: 220px;
+    border-radius: 50px;
+}
+.name-input::placeholder {
+    color: #351710;
+    opacity: 0.7;
+}
+.status-text {
+    color: #E2D37A;
+    font-family: 'Chelsea Market';
+    font-size: 16px;
+    margin: 0;
+}
+/*-------------end of name input---------*/
+
 /*------------start of play button---------*/
 .play-section {
     position: absolute;
@@ -179,3 +229,41 @@ body, html{
     pointer-events: none; /* Clicking the text counts as clicking the bug */
 }
 /*-------------end of play button---------*/
+
+
+
+
+/*TRANISIONING TO THE SECOND PAGE BROOOOO*/
+
+
+
+/*-----------------beginning of battle arena---------*/
+.div-vectors {
+    margin-top: 50px; /* Reduced from 1000px so it fits the 720px screen */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.title-lady-bug-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lady-bug-style {
+    color: #3D1A12;
+    font-family: "Chelsea Market";
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0; /* Keeps it tight */
+}
+
+/* Make sure the SVGs don't take up the whole universe */
+.div-vectors svg {
+    width: 250px;
+    height: auto;
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.3)); /* Adds some depth! */
+}
