@@ -1,8 +1,8 @@
 ˚₊‧ʚ🐞ɞ‧₊˚ Beetle Battle ˚₊‧ʚ🐞ɞ‧₊˚
 ----
 "Like a lady-bug, their spots are unique. Every individual has a programming signature that's waiting to be shined upon."
-Code, Compete, Create
 --
+Code, Compete, Create. (Your opponent is the Asian Lady Beetle (an imposter) you must defeat through honing your own beauty. 
 An educational syntax game that teaches you how to code by making you compete with your friends and family, or even a bot. (in case you're lonely)
 
 About The Project
@@ -44,11 +44,11 @@ this project transforms the dry experience of algorithm practice into competitiv
 ***Custom SVG UI: 
 
 Everything was made using shapes in html, inspired through Figma. Examples include:
-The Ladybug "Play" button and "Leaf" battle arenas are built entirely from scalable, code-driven SVG shapes.
+The Ladybug "Play" button, "Leaf" battle arenas, mushroom bounced difficulties are all built entirely from scalable, code-driven SVG shapes.
 
 ***Gemini AI Integration:
 
-Utilizes Google’s Gemini API to evaluate code quality and provide real-time snarky feedback from your beetle opponent.
+Utilizes Google’s Gemini API to evaluate code quality, prompt difficulty, and provide real-time snarky feedback to help defeat your opponent and move forwards. 
 
 ***Multiplayer Matchmaking:
 
