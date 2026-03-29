@@ -721,6 +721,10 @@ var prevRefreshSig = globalThis.$RefreshSig$;
 $parcel$ReactRefreshHelpers$ca65.prelude(module);
 
 try {
+//Entry point for Parcel
+//bundler. 
+//It imports the main App 
+//component and renders it to the DOM.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
@@ -728,7 +732,7 @@ var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 (0, _client.createRoot)(document.getElementById("root")).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 4,
+    lineNumber: 9,
     columnNumber: 52
 }, undefined));
 
@@ -17399,187 +17403,54 @@ var prevRefreshSig = globalThis.$RefreshSig$;
 $parcel$ReactRefreshHelpers$be2d.prelude(module);
 
 try {
+//The App file is the 
+// switch between pages
+// It's THE HOME PAGE! <3 <3 <3 
+// It has strings attached to the baby pages
+// aka, battlescreen.jsx, startmenu.jsx, and Results.jsx
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>App);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _indexCss = require("./index.css");
+var _react = require("react"); //imports React library for building user interfaces
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _indexCss = require("./index.css"); //links to the css file for styling
+// This is the functional component
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        style: {
-            width: '1912px',
-            height: '982px',
-            position: 'relative',
-            background: '#BA1B18',
-            overflow: 'hidden',
-            transform: `scale(${Math.min(window.innerWidth / 1512, window.innerHeight / 982)})`,
-            transformOrigin: 'top left'
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    left: 928,
-                    top: 225,
-                    position: 'absolute',
-                    color: '#3D1A12',
-                    fontSize: 45,
-                    fontFamily: 'Chelsea Market',
-                    fontWeight: '400',
-                    lineHeight: 'normal',
-                    letterSpacing: 0.50,
-                    wordWrap: 'break-word'
-                },
-                children: "Lady Asian Beetles "
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    left: 301,
-                    top: 208,
-                    position: 'absolute',
-                    color: '#3D1A12',
-                    fontSize: 45,
-                    fontFamily: 'Chelsea Market',
-                    fontWeight: '400',
-                    lineHeight: 'normal',
-                    letterSpacing: 0.50,
-                    wordWrap: 'break-word'
-                },
-                children: "Lady Bug "
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    width: 100,
-                    height: 100,
-                    left: 393,
-                    top: 586,
-                    position: 'absolute'
-                }
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    width: 1512,
-                    height: 168,
-                    left: 0,
-                    top: 0,
-                    position: 'absolute',
-                    overflow: 'hidden'
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            left: 585,
-                            top: 42,
-                            position: 'absolute',
-                            color: '#3D1A12',
-                            fontSize: 50,
-                            fontFamily: 'Chelsea Market',
-                            fontWeight: '400',
-                            lineHeight: 'normal',
-                            letterSpacing: 0.50,
-                            wordWrap: 'break-word'
-                        },
-                        children: "Code Prompt"
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 18,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            left: 363,
-                            top: 113,
-                            position: 'absolute',
-                            color: '#E2D37A',
-                            fontSize: 50,
-                            fontFamily: 'Chelsea Market',
-                            fontWeight: '400',
-                            lineHeight: 'normal',
-                            letterSpacing: 0.50,
-                            wordWrap: 'break-word'
-                        },
-                        children: "Type the output: \u201CHello World\u201D"
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 19,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/App.jsx",
-                lineNumber: 17,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                width: "200",
-                height: "200",
-                viewBox: "0 0 200 200",
-                style: {
-                    position: 'absolute',
-                    left: '49px'
-                }
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 22,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                xmlns: "http://www.w3.org/2000/svg",
-                width: "631",
-                height: "658",
-                viewBox: "0 0 631 658",
-                fill: "none",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    d: "M631 414.521C631 577.136 455.856 753.375 315.5 597.656C193.739 735.281 0 577.136 0 414.521C0 251.905 185.941 117.46 315.5 1.36752e-05C449.258 116.241 631 251.905 631 414.521Z",
-                    fill: "#526022"
+        id: "app",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "logo-container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "title-main",
+                    children: "BEETLE-BATTLE"
                 }, void 0, false, {
                     fileName: "src/App.jsx",
-                    lineNumber: 26,
-                    columnNumber: 3
-                }, this)
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 25,
-                columnNumber: 1
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                xmlns: "http://www.w3.org/2000/svg",
-                width: "631",
-                height: "658",
-                viewBox: "0 0 631 658",
-                fill: "none",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    d: "M631 243.479C631 80.8636 455.856 -95.3753 315.5 60.3442C193.739 -77.2811 0 80.8636 0 243.479C0 406.095 185.941 540.54 315.5 658C449.258 541.759 631 406.095 631 243.479Z",
-                    fill: "#526022"
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "title-reflection",
+                    children: "BEETLE-BATTLE"
                 }, void 0, false, {
                     fileName: "src/App.jsx",
-                    lineNumber: 29,
-                    columnNumber: 3
+                    lineNumber: 16,
+                    columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 28,
-                columnNumber: 1
-            }, this)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "src/App.jsx",
+            lineNumber: 14,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "src/App.jsx",
-        lineNumber: 4,
-        columnNumber: 13
+        lineNumber: 13,
+        columnNumber: 5
     }, this);
 }
 _c = App;
+exports.default = App;
 var _c;
 $RefreshReg$(_c, "App");
 
@@ -17588,7 +17459,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","react/jsx-dev-runtime":"dVPUn","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./index.css":"irmnC"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"irmnC":[function() {},{}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19896,6 +19767,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"irmnC":[function() {},{}]},["hiyDA","gYcKb"], "gYcKb", "parcelRequireeebe", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["hiyDA","gYcKb"], "gYcKb", "parcelRequireeebe", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=athenahacks2026.ad93b51f.js.map
