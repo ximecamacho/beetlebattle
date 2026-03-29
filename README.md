@@ -1,25 +1,30 @@
-Beetle Battle
+˚₊‧ʚ🐞ɞ‧₊˚ Beetle Battle ˚₊‧ʚ🐞ɞ‧₊˚
 ----
 
 Code, Compete, Create
-An educational syntax game that teaches you how to code by making you compete with your friends and family, or even a bot.
+An educational syntax game that teaches you how to code by making you compete with your friends and family, or even a bot. (in case you're lonely)
 
 About The Project
 ---
-With the exponential growth of AI, computer science has never been more accessible than now. 
-However, the learning curve is still quite steep; these combinations create coders with deeply ingrained imposter syndrome. 
-So, to stop this issue from escalating, we have created Beatle Battle, a competitive syntax trainer.
+With the exponential growth of AI, computer science has never been more accessible than now. (So it seems)
+However, using AI is only filtering out "turned on" and "turned off" brains.
+So, to stop this issue from widening, we have created "Beat"le Battle, a competitive syntax trainer.
 
-Beattle Battle helps students learn and memorize coding syntax without an AI crutch by giving them 
+Beetle Battle helps students learn and memorize coding syntax without an AI crutch by giving them 
 a prompt and requiring them to write the code while racing against time and a player. 
-This game cultivates a fierce environment for junior-developers to mature into confident programmers.
 
+Writing code, is aimed to force users to take the time to process the prompt, think about syntax, and attack. 
+
+This game cultivates a fierce environment for any developer to mature into confident programmers.
+
+What this project includes: 
+---
 We built the backend in JavaScript and used MongoDB to store players' stats. 
 Using Gemini's API, we create unique questions for various programming languages and parse users' code to assign a proper score. 
 For the frontend, we are using React to translate our Figma designs into working code: CSS, HTML,  JSX. 
 To bridge the frontend and backend, we used Node.js and Express to interact with the database and our parser.
 
-How To Play
+How To Play on the web-game
 ----
 1. Choose your programming language and difficulty
 2. Get matched with an opponent (or face the Bot)
