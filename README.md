@@ -1,3 +1,8 @@
+Beetle Battle
+
+Code, Compete, Create
+An educational syntax game that teaches you how to code by making you compete with your friends and family, or even a bot.
+
 About The Project
 With the exponential growth of AI, computer science has never been more accessible than now. 
 However, the learning curve is still quite steep; these combinations create coders with deeply ingrained imposter syndrome. 
