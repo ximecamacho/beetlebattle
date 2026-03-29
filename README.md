@@ -115,10 +115,8 @@ Battle: Once in the arena, read the Code Prompt at the top. Type your solution i
 
 🛠️ Built With Figma, VSCode, Parcel, React, CSS, Javascript. 
 ---
-Team: "The Bug Hunters"
-Samantha Reap - GitHub Profile - Full-Stack Lead & UI/UX Designer
-
-Allyson, Ximena, Khushi
+Team: Samantha Reap, Allyson Le, Ximena Camacho, Khushi Patel
 
 🗺️ Future Roadmap
 ---
+Various Compilers, More modes, Sneaky attacks like banana peels to throw.
